@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://i.postimg.cc/yxgKFKLM/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+  <link rel='stylesheet' href='insure-landing-page-master.css' type='text/css'>
+  
+  <title>Frontend Mentor | Insure landing page</title>
+</head>
+<body dir='ltr'>
+         <main>
+		       <header id='header' class='d-flex justify-content-xxl-around align-items-xxl-center'>
+		               <img class='mt-xxl-4 mt-2' src='./images/logo.svg' alt='' width="112" height="18">
+	                   <nav id='nav' class="container-fluid navbar navbar-expand-xxl d-xxl-flex align-items-start justify-content-end ">
+                            <button id='menubutton' type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                              <span id='open' class="navbar-toggler-icon navbar-light"></span>
+							  <img  id='close' class='hidden' src='./images/icon-close.svg' alt='Close menu.' width="32" height="32">
+                            </button>
+                            <div class="collapse navbar-collapse d-xxl-flex justify-content-end" id="navbarCollapse">
+                                 <div class="navbar-nav">
+                                    <a href="#" class="nav-item nav-link active">How we work</a>
+                                    <a href="#" class="nav-item nav-link">Blog</a>
+                                    <a href="#" class="nav-item nav-link">Account</a>
+                                    <button id='header-plans' class="btn btn-primary nav-item mx-auto">View plans</button>
+                                 </div>
+                             </div> 
+                        </nav>
+			   </header>
+			   <div class='container after-header'>
+                    <section class='row after-header__child1'>
+                        <div id='div' class='col-xxl-6 d-flex flex-xxl-row flex-column'>
+                   
+						   <div class='d-flex flex-column align-items-center align-items-xxl-start pt-xxl-5'>
+							  <h1 class='text-center text-xxl-start'>Humanizing your insurance.</h1>
+
+                              <p>Get your life insurance coverage easier and faster. We blend our expertise 
+                        and technology to help you find the plan that’s right for you. Ensure you 
+                        and your loved ones are protected.</p>
+                              <p><a id='plans' href="#" target="_blank" class="btn btn-success btn-lg">View Plans</a></p>
+                              <div class='order-last intro-right'>
+							     <img class='desktop' src='./images/bg-pattern-intro-right-desktop.svg' alt='' width="436" height="593">
+						         <img class='mobile' src='./images/bg-pattern-intro-right-mobile.svg' alt='' width="124" height="330">
+						      </div>
+						   </div>
+						   <div class='order-first intro-left'> 
+					          <img class='desktop' src='./images/bg-pattern-intro-left-desktop.svg' alt='' width="195" height="504">
+						      <img class='mobile' src='./images/bg-pattern-intro-left-mobile.svg' alt='' width="168" height="165">
+				           </div>
+						</div>
+						
+						<img class='col-xxl-6 desktop scaledown' src='./images/image-intro-desktop.jpg' alt='' width="540" height="650">
+						<img class='mobile order-first' src='./images/image-intro-mobile.jpg' alt='' width="375" height="451">
+					</section>
+					<section class='row d-flex flex-column after-header__child2'>
+                        <h2 class='col mb-4 text-xxl-start text-center'>We’re different</h2>
+						<div class='col'>
+                            <div class='row d-flex flex-xxl-row'>
+						       <div class='col-xxl-4 d-flex flex-column align-items-center align-items-xxl-start'>
+							      <img class='icon' src='./images/icon-snappy-process.svg' alt='' width="86" height="86">
+                                  <h3>Snappy Process</h3>
+                                  <p>Our application process can be completed in minutes, not hours. Don’t get 
+                        stuck filling in tedious forms.</p>
+						       </div>
+							   <div class='col-xxl-4 d-flex flex-column align-items-center align-items-xxl-start'>
+							      <img class='icon' src='./images/icon-affordable-prices.svg' alt='' width="86" height="86">
+                                  <h3>Affordable Prices</h3>
+                                  <p>We don’t want you worrying about high monthly costs. Our prices may be low, 
+                        but we still offer the best coverage possible.</p>
+                               </div>
+							   <div class='col-xxl-4 d-flex flex-column align-items-center align-items-xxl-start'>
+							      <img class='icon' src='./images/icon-people-first.svg' alt='' width="86" height="86">
+                                  <h3>People First</h3>
+                                  <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+                               sure you’re covered when you need it.</p>
+							   </div>
+							</div>
+						</div>
+                   </section>
+				   <section class='row d-flex flex-xxl-row align-items-xxl-center flex-column after-header__child3'>
+                        <h2 class='col-xxl-8 text-xxl-start text-center'>Find out more about how we work</h2>
+
+                        <p class='col-xxl-4 text-xxl-end text-center'><a href='#'>How we work</a></p>
+                   </section>
+				   
+				   <footer class='row d-flex flex-xxl-row flex-column after-header__child4'>
+				        <div class='col-xxl-12 inner d-flex flex-xxl-row align-items-xxl-center justify-content-xxl-between flex-column align-items-center'>
+				           <img class='col-4 col-xxl-1 mb-xxl-4' src='./images/logo.svg' alt='' width="112" height="18">
+				           <div class='col-xxl-7'></div>
+						   <nav class='col-xxl-4 mb-4 d-flex justify-content-center justify-content-xxl-end'>
+						     <a title='facebook' href='#'><img class='filter ms-2' src='./images/icon-facebook.svg' alt='twitter' width="24" height="24"></a>
+						     <a title='twitter' href='#'><img class='filter ms-2' src='./images/icon-twitter.svg' alt='twitter' width="24" height="24"></a>
+						     <a title='pinterest' href='#'><img class='filter' src='./images/icon-pinterest.svg' alt='pinterest' width="24" height="24"></a>
+						     <a title='instagram' href='#'><img class='filter' src='./images/icon-instagram.svg' alt='instagram' width="24" height="24"></a>
+						   </nav>
+				        </div>
+						<nav class='col-xxl-3 d-flex flex-column align-items-center align-items-xxl-start' aria-label='Our company.'>
+                           <h2 class='text-uppercase'>Our company</h2>
+
+                           <p><a href='#'>How we work</a></p>
+                           <p><a href='#'>Why Insure?</a></p>
+                           <p><a href='#'>View plans</a></p>
+                           <p><a href='#'>Reviews</a></p>
+                        </nav>
+						<nav class='col-xxl-3 d-flex flex-column align-items-center align-items-xxl-start' aria-label='Help me.'>
+                           <h2 class='text-uppercase'>Help me</h2>
+
+                           <p><a href='#'>FAQ</a></p>
+                           <p><a href='#'>Terms of use</a></p>
+                           <p><a href='#'>Privacy policy</a></p>
+                           <p><a href='#'>Cookies</a></p>
+                        </nav>
+						<nav class='col-xxl-3 d-flex flex-column align-items-center align-items-xxl-start' aria-label='Contact'>
+                           <h2 class='text-uppercase'>Contact</h2>
+
+                           <p><a href='#'>Sales</a></p>
+                           <p><a href='#'>Support</a></p>
+                           <p><a href='#'>Live chat</a></p>
+                        </nav>
+						<nav class='col-xxl-3 d-flex flex-column align-items-center align-items-xxl-start' aria-label='Others'>
+                           <h2 class='text-uppercase'>Others</h2>
+
+                           <p><a href='#'>Careers</a></p>
+                           <p><a href='#'>Press</a></p>
+                           <p><a href='#'>Licenses</a></p>
+						</nav>
+                  </footer>
+             </div>
+             <footer>
+	            <div class="attribution mt-5">
+                  <span class='me-2'>Challenge by</span><address><a class='me-2' href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></address>
+                  <span class='me-2'>Coded by</span><address><a href="https://www.frontendmentor.io/profile/cmb347827">CMB</a></address>
+                </div>
+	         </footer>	
+	  </main>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	  <script src='insure-landing-page-master.js'></script>
+</body>
+</html>
